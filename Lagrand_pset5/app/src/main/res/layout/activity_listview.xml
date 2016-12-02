@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp">
+
+    <TextView
+        android:id="@+id/subAddItemText"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/sub_todo"
+        android:textStyle="bold">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        android:background="@android:color/transparent"
+        android:id="@+id/deleteButton"
+        android:onClick="deleteSubItem"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lagrand_pset5</string>
+    <string name="sub_todo">Sub todo</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="to_do">to do</string>
+    <string name="To_do">To do</string>
+    <string name="task">Task</string>
+    <string name="add_a_new_item_to_your_to_do_list">Add a new item to your to do list</string>
+    <string name="edit_an_item_from_your_to_do_list">Edit an item from your to do list</string>
+    <string name="todo_item">Todo item</string>
+</resources>
